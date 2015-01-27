@@ -1,1 +1,1 @@
-http://docs.nodejitsu.com/articles/intermediate/how-to-log
+- http://docs.nodejitsu.com/articles/intermediate/how-to-log
