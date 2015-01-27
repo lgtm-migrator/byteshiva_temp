@@ -1,1 +1,2 @@
 - http://docs.nodejitsu.com/articles/intermediate/how-to-log
+- https://www.joyent.com/developers/node/design
