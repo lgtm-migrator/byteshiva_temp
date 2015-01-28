@@ -1,4 +1,4 @@
-var Stack = require("../libs/index.js");
+var Stack = require("../libs/Stack.js");
 
 console.log(typeof(Stack()));
 var s = new Stack();

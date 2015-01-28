@@ -1,1 +1,1 @@
-var stack = require("../Stack.js");
+var stack = require("../libs/Stack.js");
