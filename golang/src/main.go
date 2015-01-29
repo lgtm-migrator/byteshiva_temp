@@ -92,12 +92,13 @@ func main() {
   if l, err := area.Locate(cva); err != nil {
     panic(err)
   } else {
-    if h, ok := l.(Home); ok {
-      fmt.Println("Cva is at home",h)
-    } else if o, ok := l.(Office); ok {
-      fmt.Println("Cva is at office",o)
-    } else if b, ok := l.(Bar); ok {
-      fmt.Println("Cva is getting drunk",b)
+    switch l.(type) {
+      case Home:
+        fmt.Println("Cva is at home")
+      case Office:
+        fmt.Println("Cva is at office")
+      case Bar:
+        fmt.Println("Cva is getting drunk")
     }
     // fmt.Println(area.Locate(cva) == location)
     // fmt.Println(l.Longitude)
