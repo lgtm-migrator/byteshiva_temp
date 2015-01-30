@@ -1,0 +1,24 @@
+{
+  "name": "autosubmitwebsite",
+  "version": "0.0.1",
+  "description": "Auto Submit Job Listing Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byteshiva/byteshiva.github.io\\selenium-nodejs\\autosubmitwebsite"
+  },
+  "keywords": [
+    "autosubmit",
+    "job",
+    "listing"
+  ],
+  "author": "Siva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byteshiva/byteshiva.github.io\\selenium-nodejs\\autosubmitwebsite/issues"
+  },
+  "homepage": "https://github.com/byteshiva/byteshiva.github.io\\selenium-nodejs\\autosubmitwebsite"
+}
