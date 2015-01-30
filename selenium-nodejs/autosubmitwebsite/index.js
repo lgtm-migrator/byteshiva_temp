@@ -39,7 +39,7 @@ webdriverio
     .click("#leftNav_updateProfile > ul:nth-child(1) > li:nth-child(1) > a:nth-child(2)")
     .pause(2000)
     .click(".w150bt", function(err,res){
-      console.log(res);
+      // console.log(res);
     })
     .pause(3000)
     .back()
