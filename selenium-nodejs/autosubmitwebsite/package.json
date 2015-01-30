@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/byteshiva/byteshiva.github.io",
   "dependencies": {
+    "phantomjs": "^1.9.15",
     "webdriverio": "^2.4.5"
   }
 }

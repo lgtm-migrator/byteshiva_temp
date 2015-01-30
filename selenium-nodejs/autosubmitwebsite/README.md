@@ -9,3 +9,9 @@ https://www.npmjs.com/package/selenium-standalone
 
 npm install selenium-standalone@latest -g
 selenium-standalone install
+
+
+- This example is would be useful for anyone trying to update
+  certain sites data automatically,
+
+- I just wanted to test some jobs sites regarding some trivial updates.
