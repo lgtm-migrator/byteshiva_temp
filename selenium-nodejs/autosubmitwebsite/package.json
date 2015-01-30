@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/byteshiva/byteshiva.github.io/issues"
   },
-  "homepage": "https://github.com/byteshiva/byteshiva.github.io"
+  "homepage": "https://github.com/byteshiva/byteshiva.github.io",
+  "dependencies": {
+    "webdriverio": "^2.4.5"
+  }
 }
