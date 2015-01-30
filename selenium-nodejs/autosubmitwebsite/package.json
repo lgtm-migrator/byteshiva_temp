@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/byteshiva/byteshiva.github.io\\selenium-nodejs\\autosubmitwebsite"
+    "url": "https://github.com/byteshiva/byteshiva.github.io"
   },
   "keywords": [
     "autosubmit",
@@ -18,7 +18,7 @@
   "author": "Siva",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/byteshiva/byteshiva.github.io\\selenium-nodejs\\autosubmitwebsite/issues"
+    "url": "https://github.com/byteshiva/byteshiva.github.io/issues"
   },
-  "homepage": "https://github.com/byteshiva/byteshiva.github.io\\selenium-nodejs\\autosubmitwebsite"
+  "homepage": "https://github.com/byteshiva/byteshiva.github.io"
 }
