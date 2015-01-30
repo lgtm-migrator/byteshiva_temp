@@ -1,0 +1,15 @@
+{
+  "name": "libs",
+  "version": "1.0.0",
+  "description": "Stack Libs",
+  "main": "Stack.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stack",
+    "Example"
+  ],
+  "author": "Siva",
+  "license": "ISC"
+}
