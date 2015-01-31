@@ -1,14 +1,13 @@
 // @TODO
 // 1. Get Url
-var webdriverio = require('webdriverio');
-var options = {
-    desiredCapabilities: {
-        browserName: 'firefox'
-    }
-};
-
-var emailId  = process.argv[2];
-var password = process.argv[3];
+var webdriverio = require('webdriverio'),
+    options = {
+        desiredCapabilities: {
+            browserName: 'firefox'
+        }
+    },
+    emailId  = process.argv[2],
+    password = process.argv[3];
 
 function frontPageLogin()  {
     return webdriverio
@@ -40,10 +39,6 @@ function loginPage()  {
     .saveScreenshot("./loginPageSnapShot.png", function(err,screenshot, res){
       console.log(err);
     })
-    // .getCssProperty('#emailtxt', 'display', function(err, dis) {
-    //   console.log("displaying value");
-    //   console.log(err);
-    // })
     .waitFor('#emailTxt', 5000, function(err, res) {
         console.log(err);
     })
@@ -68,15 +63,11 @@ var frontPageln = frontPageLogin();
       .saveScreenshot("./summarySnapShot.png", function(err,screenshot, res){
         console.log(err);
       })
-      // .elementIdValue("#summary","Team Lead with 6+ experience in USA and overall 13+ Experience working in Nodejs Backbonejs Javascript selenium", function(err, res){
-      //   console.log(res);
-      // })
       .click(".w150bt", function(err,res){
         // console.log(res);
       })
       .pause(3000)
       .back()
-      // .newWindow("http://www.google.com/").pause(3000)
       .refresh()
       .log('server')
       .log('driver','ALL')
