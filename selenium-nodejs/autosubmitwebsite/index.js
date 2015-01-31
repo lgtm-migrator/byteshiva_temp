@@ -1,17 +1,5 @@
 // @TODO
-// 1. Update Summary Dynamically
-// 2. Get ScreenShot
-// 3. Get Url
-
-// .element("#summary", function(err, res){
-//     console.log(res);
-// })
-// .url(function(url){
-//   console.log(url);
-// })
-// .screenshot(function(res){
-//   console.log(res);
-// })
+// 1. Get Url
 var webdriverio = require('webdriverio');
 var options = {
     desiredCapabilities: {
@@ -38,6 +26,16 @@ webdriverio
     .click("#leftNav_updateProfile")
     .click("#leftNav_updateProfile > ul:nth-child(1) > li:nth-child(1) > a:nth-child(2)")
     .pause(2000)
+    .setValue("#summary","Team Lead with 6+ experience in USA and overall 13+ Experience working in Java8 Nodejs Backbonejs Javascript selenium")
+    .getText("#summary", function(err, text){
+      console.log(text);
+    })
+    .saveScreenshot("./summarySnapShot.png", function(err,screenshot, res){
+      console.log(err);
+    })
+    // .elementIdValue("#summary","Team Lead with 6+ experience in USA and overall 13+ Experience working in Nodejs Backbonejs Javascript selenium", function(err, res){
+    //   console.log(res);
+    // })
     .click(".w150bt", function(err,res){
       // console.log(res);
     })
