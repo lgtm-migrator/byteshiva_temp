@@ -24,6 +24,7 @@
   "homepage": "https://github.com/byteshiva/byteshiva.github.io",
   "dependencies": {
     "phantomjs": "^1.9.15",
+    "selenium-standalone": "^3.2.0",
     "webdriverio": "^2.4.5"
   }
 }

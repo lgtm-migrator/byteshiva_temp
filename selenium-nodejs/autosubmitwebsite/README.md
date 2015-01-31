@@ -16,3 +16,12 @@ selenium-standalone install
 - This script could be used to update trivial data to job sites.  
 
 - https://blog.heroku.com/archives/2014/3/11/node-habits
+
+- Alternative for java based selenium standalone server
+Steps
+1. Install selenium using npm
+npm install selenium-standalone -
+
+How to start a selenium server
+`start-selenium` is deprecated, please use `selenium-standalone` command line.
+Example: `selenium-standalone install && selenium-standalone start`
