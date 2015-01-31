@@ -25,3 +25,6 @@ npm install selenium-standalone -
 How to start a selenium server
 `start-selenium` is deprecated, please use `selenium-standalone` command line.
 Example: `selenium-standalone install && selenium-standalone start`
+
+- http://sarabander.github.io/sicp/html/Chapter-1.xhtml#Chapter-1
+- https://mitpress.mit.edu/sicp/full-text/book/book.html
