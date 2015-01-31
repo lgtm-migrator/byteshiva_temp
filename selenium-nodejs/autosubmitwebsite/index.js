@@ -41,7 +41,7 @@ webdriverio
     })
     .pause(3000)
     .back()
-
+    // .newWindow("http://www.google.com/").pause(3000)
     .refresh()
     .log('server')
     .log('driver','ALL')
