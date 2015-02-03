@@ -1,13 +1,14 @@
 // @TODO
 // 1. Get Url
 var webdriverio = require('webdriverio'),
-    options = {
-        desiredCapabilities: {
-            browserName: 'phantomjs'
-        }
-    },
     emailId  = process.argv[2],
     password = process.argv[3],
+    browserName = process.argv[4],
+    options = {
+        desiredCapabilities: {
+            browserName: browserName || 'phantomjs'
+        }
+    },
     client = webdriverio.remote(options);
 
     client.addCommand("navigateProfilePage", function(customVar, cb) {
