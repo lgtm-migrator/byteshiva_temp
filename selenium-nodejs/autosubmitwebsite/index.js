@@ -71,7 +71,7 @@ var frontPageln = frontPageLogin();
 
       })
       .pause(2000)
-      .setValue("#summary","Team Lead with 6+ experience in USA and overall 13+ Experience working in Java8 Nodejs Backbonejs Javascript Selenium Underscorejs AWS JQuery AngularJS")
+      .setValue("#summary","Team Lead with 6+ experience in USA and overall 13+ Experience working in Java8 Maven SVN/Git Nodejs Backbonejs Javascript Selenium Underscorejs AWS JQuery AngularJS")
       .pause(2000)
       .getText("#summary", function(err, text){
         console.log(text);
