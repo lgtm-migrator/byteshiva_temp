@@ -1,7 +1,6 @@
 var emailId  = process.argv[2],
 password = process.argv[3],
 browserName = process.argv[4],
-
 client = require('webdriverio').remote({
   desiredCapabilities: {
     browserName: browserName || 'phantomjs'
