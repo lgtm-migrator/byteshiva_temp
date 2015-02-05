@@ -35,3 +35,5 @@ Register GhostDriver with a Selenium Grid hub
 -Launch the grid server, which listens on 4444 by default: java -jar /path/to/selenium-server-standalone-<SELENIUM VERSION>.jar -role hub
 -Register with the hub: phantomjs --webdriver=8080 --webdriver-selenium-grid-hub=http://127.0.0.1:4444
 -Now you can use your normal webdriver client with http://127.0.0.1:4444 and just request browserName: phantomjs
+
+- http://www.linthub.io github integration with lint
