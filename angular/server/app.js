@@ -1,5 +1,6 @@
 /**
  * Main application file
+ * kickstarts the app
  */
 
 'use strict';
