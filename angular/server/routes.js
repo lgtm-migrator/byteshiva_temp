@@ -1,5 +1,6 @@
 /**
  * Main application routes
+ * @todo - add 5xx error codes
  */
 
 'use strict';
