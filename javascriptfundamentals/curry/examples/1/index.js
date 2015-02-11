@@ -17,3 +17,4 @@ var log = function(fn) {
 
 log(babyInstance('Asian Babies'));
 log(babyInstance('African Babies'));
+log(babyInstance('Australian Babies'));
