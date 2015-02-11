@@ -1,5 +1,7 @@
 // @TODO
 // 1. Get Url
+// 2. Check if the login element is present if yes proceed with conditional switch statement
+//
 var webdriverio = require('webdriverio'),
     emailId  = process.argv[2],
     password = process.argv[3],
