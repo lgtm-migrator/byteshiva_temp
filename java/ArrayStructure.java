@@ -1,7 +1,7 @@
-public class ArrayStructures {
-  priviate int[] theArray = new int[50];
+public class ArrayStructure {
+  private int[] theArray = new int[50];
 
-  priviate int arraySize = 10;
+  private int arraySize = 10;
 
   public void generateRandomArray() {
     for(int i = 0; i < arraySize; i++) {
@@ -15,7 +15,7 @@ public class ArrayStructures {
       System.out.println("|" + i + " |");
       System.out.println(theArray[i] + " |");
 
-      System.out.println("----------")
+      System.out.println("----------");
     }
   }
 
@@ -47,11 +47,11 @@ public class ArrayStructures {
   public void insertValue(int value) {
     if(arraySize < 50) {
       theArray[arraySize] = value;
-      theArray++;
+      arraySize++;
     }
   }
 
-  public String linearSearchForValue(int Value) {
+  public String linearSearchForValue(int value) {
     boolean valueInArray = false;
     String indexWithValue = "";
     System.out.print("The value was found in the following: ");
@@ -73,7 +73,7 @@ public class ArrayStructures {
 
 
   public static void main(String[] args){
-      ArrayStructures newArray = new ArrayStructures();
+      ArrayStructure newArray = new ArrayStructure();
       newArray.generateRandomArray();
       newArray.printArray();
       System.out.println(newArray.getValueAtIndex(3));
