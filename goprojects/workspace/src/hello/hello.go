@@ -12,7 +12,7 @@ func formatName1(name string) (string, int) {
 }
 
 func testSlices() {
-	p := []int{2, 3, 5, 7, 11, 13}
+	p := []int{2, 3, 5, 7, 11, 13, 100}
 	fmt.Println("p ==", p)
 
 	for i := 0; i < len(p); i++ {
