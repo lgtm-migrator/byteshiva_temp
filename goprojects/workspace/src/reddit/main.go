@@ -1,3 +1,4 @@
+// @todo - make the  code more customized and  accept dynamic variable to reddit service 
 package main
 
 import (
