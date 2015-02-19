@@ -46,6 +46,29 @@ public class ArrayListExample {
 	for(String str: list) {
 		System.out.println("Item is:" + str);
 	}
+
+	// 3rd way: using iterator
+	// hashNext(): returns true if there are more elements
+	// next(): returns the next element
+	System.out.println("Retrieving items using iterator");
+	for(Iterator<String> it = list.iterator(); it.hasNext();) {
+		System.out.println("Item is: " + it.next());
+	}
+
+	// Replacing an element
+	list.set(1, "NewItem");
+	System.out.println("The arraylust after the replacement is: " + list);
+
+	// Removing items
+	list.remove("Item3");
+
+	System.out.println("The final contents of the arraylist are: " + list);
+	
+	// COnverting ArrayList to Array
+	String[] simpleArray = list.toArray(new String[list.size()]);
+	System.out.println("The array created after the conversion of our arraylist is: "
+		+ Arrays.toString(simpleArray));
+
    }
 }
 
