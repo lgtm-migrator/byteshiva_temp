@@ -1,14 +1,18 @@
 // Refer :http://stackoverflow.com/questions/10781516/how-to-pipe-several-commands
+//@todo concurrent execution
+// refer: https://play.golang.org/p/ClmO3lMBMp
 package main
 
 import (
   "os"  
   "os/exec"
   "strconv"
-//  "fmt"
+  "time"  
+  //"fmt"
 )
 
-func pingme (v int) { 
+func pingme (v int ) { 
+ //message := make(chan string)
   s  := strconv.Itoa(v)
   v1 := "192.168.1." + s 
   c1 := exec.Command("ping","-n","1",v1)
@@ -18,17 +22,15 @@ func pingme (v int) {
   _ = c2.Start()
   _ = c1.Run()
   _ = c2.Wait()
-
-//  out, err := cmd.Output()
-//  if err != nil {
-//	fmt.Println(err.Error())
-//	return
-// }
-//	fmt.Print(string(out))
+  //<- message
 }
 
 func main() {
-  for v := 0; v < 149; v++ {
-          pingme(v)
-  }
+ 
+ for v := 100; v < 149; v++ {
+         pingme(v)
+ }
+
+ 
+ time.Sleep(time.Second * 3)
 }
