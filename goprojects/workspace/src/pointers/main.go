@@ -21,4 +21,5 @@ func main() {
 	fmt.Println("Zeroptr:",i)
 
 	fmt.Println("Pointer:", &i)
+	fmt.Println("Zeroptr:",i)
 }
