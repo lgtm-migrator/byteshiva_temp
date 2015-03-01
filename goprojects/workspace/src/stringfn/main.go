@@ -12,4 +12,5 @@ func main() {
 	p("HasPrefix: ", s.HasPrefix("test","te"))
 	p("HasSuffix: ", s.HasSuffix("test","st"))
 	p("Index: ",s.Index("test","st"))
+        p("end")
 }
