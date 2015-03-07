@@ -3,6 +3,7 @@ var fs = require('fs'),
 	http = require('http'),
 	path = require('path'),
 	file = process.argv[2],
+   	crypto = require('crypto'),
 	server = process.argv[3];
 
 	var options = {
@@ -22,6 +23,7 @@ var fs = require('fs'),
 
 	fs.createReadStream(file)
 	  .pipe(zlib.createGzip())
+	  .pipe(crypto.createCipher('aes192','a_shared_key'))
 	  .pipe(req)
 	  .on('finish', function() {
 		console.log('File successfully sent');
