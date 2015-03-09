@@ -1,0 +1,1 @@
+function findChar(str, num) { return str.charAt(num)}; twenty20 = findChar("May the odds be ever in your favor.",17) + findChar("Won't you be my neighbor?",18) + findChar("As you wish.", 9) + findChar("Judge me by my size, do you?", 17) + findChar("Wingardium Leviosa!",15) + findChar("To infinity...and beyond!",7);
