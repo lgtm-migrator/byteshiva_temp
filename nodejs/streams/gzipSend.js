@@ -8,7 +8,7 @@ var fs = require('fs'),
 
 	var options = {
 		hostname: server,
-		port: 3000,
+		port: 4000,
 		method: 'PUT',
 		headers: {
 			filename: path.basename(file),
