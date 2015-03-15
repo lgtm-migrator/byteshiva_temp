@@ -25,6 +25,6 @@ func main() {
 	name, size := formatName1("Siva Subra")
 	// name, _ = formatName("Siva Chii")
 	fmt.Println(name, size)
-	fmt.Println(formatName("SivaSubra"))
+	fmt.Println(formatName("SivaSubraMa"))
 	testSlices()
 }

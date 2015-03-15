@@ -1,8 +1,7 @@
 var http = require('http');
     callback = function(request, response) {
 	response.writeHead(200);
-	response.write("Hello, this is Siva");
-	response.end();
+	response.end("Hello, this is Siva");
     };
 
 http.createServer(callback).listen(9191);
