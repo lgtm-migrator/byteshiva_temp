@@ -31,4 +31,12 @@ function display() {
 	}
 }
 
+function findPrevious(item) {
+	var currNode = this.head;
+	while(!(currNode.next == null) && (currNode.next.element != item)) {
+		currNode = currNode.next;
+	}
+	return currNode;
+}
+
 module.exports = LList;
