@@ -4,7 +4,7 @@ function LList() {
 	this.head = new Node("head");
 	this.find = find;
 	this.insert = insert;
-//	this.remove = remove;
+	this.remove = remove;
 	this.display = display;
 }
 
@@ -37,6 +37,13 @@ function findPrevious(item) {
 		currNode = currNode.next;
 	}
 	return currNode;
+}
+
+function remove(item) {
+	var prevNode = this.findPrevious(item);
+	if(!(prevNode.next == null)) {
+		prevNode.next = prevNode.next.next;
+	}
 }
 
 module.exports = LList;
