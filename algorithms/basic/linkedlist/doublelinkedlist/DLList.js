@@ -6,7 +6,7 @@ function DLList() {
 	this.insert = insert;
 	this.remove = remove;
 	this.display = display;
-	this.findPrevious = findPrevious;
+	//this.findPrevious = findPrevious;
 }
 
 function find(item) {
