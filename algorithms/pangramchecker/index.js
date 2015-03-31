@@ -6,5 +6,5 @@ var IsPanGram = function(panGramStr) {
     return _.chain(panGramStr).toLower().isPangram().value();
 };
 
-console.log("IsPanGram", IsPanGram.call(this,panGramStr));
-console.log("IsPanGram", IsPanGram.call(this, "the World"));
+console.log("Result IsPanGram - \"", panGramStr,"\" - " ,IsPanGram.call(this,panGramStr));
+console.log("Result IsPanGram - \"", "the World","\" - ", IsPanGram.call(this, "the World"));
