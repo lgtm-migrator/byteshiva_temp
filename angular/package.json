@@ -22,7 +22,7 @@
     "composable-middleware": "^0.3.0",
     "connect-mongo": "0.8.2",
     "socket.io": "1.7.4",
-    "socket.io-client": "^1.0.6",
+    "socket.io-client": "1.7.4",
     "socketio-jwt": "^2.0.2"
   },
   "devDependencies": {
