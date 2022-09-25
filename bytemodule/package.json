@@ -17,10 +17,10 @@
   "author": " <>",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^1.21.4",
-    "istanbul": "^0.3.2",
-    "jshint": "^2.5.6",
-    "jscs": "^1.6.1"
+    "mocha": "1.21.5",
+    "istanbul": "0.3.22",
+    "jshint": "2.13.5",
+    "jscs": "1.13.1"
   },
   "repository": {
     "type": "git",
